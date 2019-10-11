@@ -1,1 +1,1 @@
-# react-exercise
+# mern-exercise
