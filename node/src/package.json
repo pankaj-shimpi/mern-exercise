@@ -1,0 +1,26 @@
+{
+  "proxy": "https://accounts.google.com",
+  "name": "mern-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "instagram-node": "^0.5.8",
+    "mongoose": "^5.7.5",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
